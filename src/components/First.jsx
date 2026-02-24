@@ -7,11 +7,11 @@ const First = () => {
         <div className="w-full block lg:flex  header-wall">
             <div className="w-full lg:w-2/5  bg-gray-700 lg:pl-5 xl:pl-5 2xl:pl-36">
                 <div className="w-full block h-full px-5 lg:pl-5  lg:pr-20 py-20">
-                    <span className="text-gray-50 text-sm uppercase open-light ">Get our decoration</span>
-                    <h1 className="text-2xl text-gray-50  mt-24">Lorem ipsum dolor sit amet consectetur adipisicing elit Quo accusamus similique beatae quos exercitationem .</h1>
-                    <h2 className="text-2xl text-gray-100 open-light mt-5">Lorem ipsum dolor.</h2>
+                    <span className="text-gray-50 text-sm uppercase open-light ">Bienvenue sur Brico domicile</span>
+                    <h1 className="text-xl text-gray-500  mt-24"> <span className="text-orange-100">BRICO DOMICILE</span>  propose des services d’aide à domicile en Essonne, avec des interventions sérieuses et efficaces.</h1>
+                    <h2 className="text-xl text-gray-100 open-light mt-5">Lorem ipsum dolor.</h2>
                     <hr className="border-b-0 border-gray-100 w-full my-10" />
-                    <p className="text-gray-500 open-light mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure error at dolor numquam aperiam perspiciatis mollitia atque alias voluptates. Cupiditate dicta incidunt pariatur non adipisci mollitia! Doloribus sequi perspiciatis dolorum!</p>
+                    <p className="text-gray-500 open-light mb-16">En Essonne, nous accompagnons les particuliers, les personnes âgées et les familles dans leur quotidien en proposant des services utiles à domicile.</p>
                     <Button text="send me"/>
 
                     <h3 className="text-lg text-gray-100 mt-36">Lorem ipsum dolor sit amet.</h3>
@@ -31,10 +31,10 @@ const First = () => {
                 </div>
             </div>
 
-            <div className="w-full lg:w-3/5 flex items-end px-5 lg:px-5 xl:px-5 2xl:px-36  py-10 lg:py-0">
+            <div className="w-full lg:w-3/5 flex items-end px-5 lg:px-5 xl:px-10 2xl:px-36  py-10 lg:py-0">
             
-                <div className="w-full mb-0 block lg:flex justify-center lg:justify-between items-center lg:mb-16 border border-gray-100 rounded-md px-5 text-center py-5 lg:py-0">
-                    <p className="text-base text-gray-100 mr-10 mb-5 lg:mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+                <div className="w-full mb-0 block lg:flex justify-center lg:justify-between items-center lg:mb-16 bg-gray-700 px-5 text-center py-5 lg:py-0">
+                    <p className="text-base text-gray-500 mr-10 mb-5 lg:mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
                     <Button text="Join us" />
                 </div>
             </div>

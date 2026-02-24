@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Bar from './components/Bar'
 import First from './components/First'
 import Second from './components/Second'
+import Third from './components/Third'
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 				<Bar />
 				<First />
 				<Second />
+				<Third />
 			</div>
 		</div>
   );

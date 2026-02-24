@@ -6,42 +6,47 @@ import img_4 from '../media/img/tableau.jpg'
 
 const Second = () => {
     return (
-        <div className="w-full px-5 md:px-5 lg:px-5 xl:px-5 2xl:px-36 bg-gray-50 py-20">
+        <div className="w-full px-5 md:px-5 lg:px-5 xl:px-5 2xl:px-36 bg-gray-50 py-20 block lg:flex">
             <div className="w-full lg:w-3/5">
                 <div className="w-full block lg:flex items-center justify-between">
-                    <div className="w-full bg-gray-500  mx-5 p-5">
-                        <img src={img_1} alt="" className="" />
+                    <div className="w-full bg-gradient-to-r from-gray-500 to-gray-700  mx-0 lg:mx-5 p-5 my-5 lg:my-0">
+                        <img src={img_1} alt="" className="shadow-perso" />
                     </div>
-                    <div className="w-full bg-gray-500  mx-5 p-5">
-                        <img src={img_2} alt="" className="" />
+                    <div className="w-full bg-gradient-to-r from-gray-700 to-gray-500  mx-0 lg:mx-5 p-5 my-5 lg:my-0">
+                        <img src={img_2} alt="" className="shadow-perso" />
                     </div>
-                    <div className="w-full bg-gray-500  mx-5 p-5">
-                        <img src={img_3} alt="" className="" />
+                    <div className="w-full bg-gradient-to-r from-gray-500 to-gray-700  mx-0 lg:mx-5 p-5 my-5 lg:my-0">
+                        <img src={img_3} alt="" className="shadow-perso" />
                     </div>
                 </div>
-                <div className="w-full block lg:flex  justify-between py-20">
-                    <div className="w-full py-5  mx-5">
+                <div className="w-full block lg:flex  justify-between items-end py-20">
+                    <div className="w-full   mx-0 lg:mx-5">
                         <h3 className="open-bold text-gray-700">Lorem ipsum dolor sit amet consectetur. </h3>
                         <p className="text-gray-700 open-light my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-                        <p className="text-gray-700 open-light mt-16  text-sm">Lorem ipsum dolor.</p>
+                        <p className="text-gray-700 open-light mt-5  text-sm">Lorem ipsum dolor.</p>
                         <div className="flex">
                             <span className="mr-5 text-orange-100">1000K</span>
                             <span className="text-orange-100">500K</span>
                         </div>
                         <div className="flex mt-10">
-                            <button className="px-5 rounded-lg bg-gray-500">Lorem</button>
-                            <span className="px-5 rounded-lg bg-gray-500 mx-5">Lorem ipsum dolor</span>
+                            <a href="" className="px-5 py-2 bg-gray-700 text-gray-50">Lorem</a>
+                            <span className="px-5 py-2 bg-gray-700 mx-5  text-gray-50">Lorem ipsum dolor</span>
                         </div>
 
                     </div>
-                    <div className="w-full  mx-5  ">
-                        <img src={img_4} alt="" className="  shadow-perso" />
+                    <div className="w-full my-5 lg:my-0 mx-0 lg:mx-5  ">
+                        <img src={img_4} alt="" className="  shadow-perso " />
                     </div>
                 </div>
             </div>
             <div className="w-full lg:w-2/5">
-            
+                <div className="w-full px-0 lg:px-5">
+                    <h2 className="text-2xl font-bold"> Lorem ipseum</h2>
+                    <h3 className="py-8 text-lg font font-bold"> Somme text for fun in style of sky</h3>
+                    <p className="py-5 open-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quaerat deserunt neque assumenda animi atque, necessitatibus repudiandae ipsa eum et labore accusantium minus dolorum ut sit magni accusamus. Alias, pariatur.</p>
+                    <p className="py-5 open-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quaerat deserunt neque assumenda animi atque, necessitatibus repudiandae ipsa eum et labore accusantium minus dolorum ut sit magni accusamus. Alias, pariatur.</p>
+                </div>
             </div>
 
         </div>
