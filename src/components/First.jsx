@@ -8,13 +8,13 @@ const First = () => {
             <div className="w-full lg:w-2/5  bg-gray-700 lg:pl-5 xl:pl-5 2xl:pl-36">
                 <div className="w-full block h-full px-5 lg:pl-5  lg:pr-20 py-20">
                     <span className="text-gray-50 text-sm uppercase open-light ">Bienvenue sur Brico domicile</span>
-                    <h1 className="text-xl text-gray-500  mt-24"> <span className="text-orange-100">BRICO DOMICILE</span>  propose des services d’aide à domicile en Essonne, avec des interventions sérieuses et efficaces.</h1>
+                    <h1 className="text-xl text-gray-500  mt-16"> <span className="text-orange-100">BRICO DOMICILE</span>  propose des services d’aide à domicile en Essonne, avec des interventions sérieuses et efficaces.</h1>
                     <h2 className="text-xl text-gray-100 open-light mt-5">Lorem ipsum dolor.</h2>
                     <hr className="border-b-0 border-gray-100 w-full my-10" />
                     <p className="text-gray-500 open-light mb-16">En Essonne, nous accompagnons les particuliers, les personnes âgées et les familles dans leur quotidien en proposant des services utiles à domicile.</p>
                     <Button text="send me"/>
 
-                    <h3 className="text-lg text-gray-100 mt-36">Lorem ipsum dolor sit amet.</h3>
+                    <h3 className="text-lg text-gray-100 mt-16">Lorem ipsum dolor sit amet.</h3>
                     <p className="text-gray-100 text-sm open-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum facere fugiat.</p>
 
                     <hr className="border-gray-500 w-full  mt-24" />

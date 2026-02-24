@@ -26,7 +26,7 @@ const Third = () => {
 
             <div className="w-full lg:w-2/5  block lg:flex px-5  xl:px-10 2xl:px-36  py-10 lg:py-0 justify-end">
             
-                <div className="w-full xl:w-1/3 2xl:w-1/4 mb-0 block  lg:justify-between items-center lg:mb-16 bg-gray-700   text-center   lg:absolute lg:-translate-y-[400px] shadow-perso">
+                <div className="w-full lg:w-1/3 2xl:w-1/4 mb-0 block  lg:justify-between items-center lg:mb-16 bg-gray-700   text-center   lg:absolute lg:-translate-y-[380px] 2xl:-translate-y-[500px] shadow-perso">
                     <div className="w-full bg-orange-100 p-5">
                         <h2 className="text-left"> Humble text in the sea</h2>
                     </div>
@@ -37,7 +37,7 @@ const Third = () => {
 
                 </div>
 
-                <div className="w-full xl:w-1/3 2xl:w-1/4 mb-0 block  lg:mb-16 bg-gray-600   text-left   lg:absolute lg:translate-y-[150px]  p-5">
+                <div className="w-full lg:w-1/3 2xl:w-1/4 mb-0 block  lg:mb-16 bg-gray-600   text-left   lg:absolute lg:translate-y-[150px]  p-5">
                     <span className="open-light text-gray-100 text-left text">lorem ipseum lerem of site</span>
                 </div>
             </div>

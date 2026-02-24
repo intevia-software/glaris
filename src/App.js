@@ -5,6 +5,8 @@ import Bar from './components/Bar'
 import First from './components/First'
 import Second from './components/Second'
 import Third from './components/Third'
+import Fourth from './components/Fourth'
+import Five from './components/Five'
 import './App.css';
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
 				<First />
 				<Second />
 				<Third />
+				<Fourth />
+				<Five />
 			</div>
 		</div>
   );
