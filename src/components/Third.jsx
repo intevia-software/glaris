@@ -2,7 +2,7 @@ import React from 'react';
 import salon from '../media/img/salon.jpg'
 import cheer from '../media/img/cheer.jpg'
 import canape from '../media/img/canape.jpg'
-import black from '../media/img/black.jpg'
+import black from '../media/img/black.png'
 
 const Third = () => {
     return (

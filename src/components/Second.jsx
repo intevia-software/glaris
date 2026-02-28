@@ -1,8 +1,8 @@
 import React from 'react';
-import img_1 from '../media/img/man.jpg'
-import img_2 from '../media/img/labtop.jpg'
-import img_3 from '../media/img/ville.jpg'
-import img_4 from '../media/img/tableau.jpg'
+import img_1 from '../media/img/man.png'
+import img_2 from '../media/img/robinet.png'
+import img_3 from '../media/img/courses.png'
+import img_4 from '../media/img/cliente.png'
 
 const Second = () => {
     return (
